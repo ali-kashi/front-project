@@ -1,0 +1,35 @@
+body
+{
+  background-color: #fafafa;
+  font-size: 18px;
+    font-family: 'b nazanin';
+}
+.data-table
+{
+  margin: auto;
+  border: solid 1px #e0e0e0;
+  border-spacing: 0px;
+  border-radius: 4px;
+}
+.data-table td,.data-table th
+{
+  border-bottom: solid 1px #e0e0e0;
+  border-collapse: collapse;
+  padding: 16px;
+}
+.data-table tr
+{
+  height: 52px;
+}
+.data-table tr:first-child
+{
+  height: 56px;
+}
+.data-table__number-left
+{
+  text-align: left;
+}
+a
+{
+  color: #000;
+}

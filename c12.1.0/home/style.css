@@ -1,0 +1,225 @@
+body
+{
+  direction: rtl;
+  text-align: right;
+  font-family: 'b nazanin';
+  margin: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.name-store
+{
+  padding: 15px;
+  margin: 0px;
+  float: right;
+}
+.name-store > span
+{
+
+  font-size: 34px;
+}
+.swiper {
+  width: 147vh;
+  height: auto;
+}
+.header
+{
+  grid-column: 1/3;
+  padding: 0px;
+  position: relative;
+}
+/*.header__search
+{
+  margin: 15px;
+  height: 48px;
+  padding: 16px 16px 16px 12px;
+  box-sizing: border-box;
+  width: 420px;
+  font-size: 18px;
+  background-color: #f0f0f1;
+  border: none;
+  border-radius: 1em;
+  float: left;
+}
+.header__search:focus
+{
+  outline: none;
+}*/
+.card
+{
+  width: auto;
+  border-radius: .5em;
+  display: block;
+  text-align: center;
+  margin:10px 0 40px 0 ;
+  padding: 0px;
+
+}
+.card:hover
+{
+    border: solid 1.5px #e0e0e0;
+}
+.card__img-top
+{
+
+  height: 194px;
+  margin: 0;
+  border-radius: 3px;
+
+}
+.card__img-top > img
+{
+    margin-top: 5px;
+    height: 189px;
+}
+.card__body
+{
+  padding:0 16px;
+  margin: 0;
+
+}
+.card__title
+{
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  padding-top: 16px;
+  text-align: right;
+  color: #232F34;
+  font-size: 22px;
+}
+.card__text
+{
+
+  font-size: 28px;
+  font-weight: bold
+  color: #232F34;
+  margin: 0;
+  padding-top:24px;
+  text-align: left;
+}
+.btn
+{
+  min-width: 64px;
+	padding:0px 8px;
+	height:36px;
+  line-height: 36px;
+	font-size:17px;
+  font-weight: bold;
+  margin:8px 0;
+  text-decoration: none;
+  border:none;
+  border-radius: 4px;
+  float: right;
+}
+.btn_pirimary
+{
+  	color:#6750A4;
+    background-color:#FFFBFE;
+}
+.btn_pirimary:hover
+{
+  	background-color:rgba(103,80,164,.05);
+}
+.btn:hover
+{
+  	background-color:rgba(103,80,164,.1);
+}
+.swiper_product-margin
+{
+	margin-top:15px;
+}
+.footer
+{
+  grid-column: 1/3;
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  margin-bottom: 0px;
+  border-top: solid 1.5px #e0e0e0;
+  position: relative;
+  bottom: 0px;
+}
+.footer__logo
+{
+  width: 150px;
+  margin: 10px 30px;
+}
+.footer__link-Stay-with-us i
+{
+  font-size: 22px;
+  color: #9E9E9E;
+}
+.footer__link-Stay-with-us i:hover
+{
+  color: #000;
+}
+.footer__Stay-with-us
+{
+    margin-left: 15px;
+    float: left;
+}
+
+.main-content__images-top-main
+{
+  width: 100%;
+  display: grid;
+  grid-gap:10px;
+  grid-template-columns: 35% 65%;
+  position:
+
+}
+.main-content__images-top-main img
+{
+  border-radius: .5em;
+}
+.main-content__image-left-main img
+{
+    width: calc(100% - 10px);
+    height: 100%;
+}
+.main-content__image-right-main img
+{
+  width: 100%;
+  height: calc(50% - 6px);
+}
+.swiper__title-swiper
+{
+  margin: 0;
+  padding: 8px 16px 8px;
+  border-bottom:solid 1.5px #e0e0e0;
+  /*border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;*/
+}
+.swiper .swiper-button-prev {
+    top: 260px
+}
+.swiper .swiper-button-next {
+    top: 260px
+}
+.icon-logo
+{
+  width: 70px;
+  float: right;
+  margin: 0px;
+  padding: 10px 15px 0 0;
+}
+.icon-logo > img
+{
+  width: 100%;
+}
+.card__like-product > i
+{
+  font-size: 24px;
+  color: #ff0000;
+  margin-top: 8px;
+  position: absolute;
+  left: 56px;
+}
+.card__bookmark-product > i
+{
+  font-size: 24px;
+  margin-top: 8px;
+  position: absolute;
+  left: 16px;
+}
