@@ -1,0 +1,100 @@
+.card
+{
+  width: auto;
+  border-radius: .5em;
+  display: block;
+  text-align: center;
+  margin:10px 0 40px 0 ;
+  padding: 0px;
+  position: relative;
+}
+.card:hover
+{
+    border: solid 1.5px #e0e0e0;
+}
+.card__img-top
+{
+
+  height: 194px;
+  margin: 0;
+  border-radius: 3px;
+
+}
+.card__img-top > img
+{
+    margin-top: 5px;
+    height: 189px;
+}
+.card__body
+{
+  padding:0 16px;
+  margin: 0;
+
+}
+.card__title
+{
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  padding-top: 16px;
+  text-align: right;
+  color: #232F34;
+  font-size: 22px;
+}
+.card__text
+{
+
+  font-size: 28px;
+  font-weight: bold
+  color: #232F34;
+  margin: 0;
+  padding-top:24px;
+  text-align: left;
+}
+.btn
+{
+  min-width: 64px;
+	padding:0px 8px;
+	height:36px;
+  line-height: 36px;
+	font-size:17px;
+  font-weight: bold;
+  margin:8px 0;
+  text-decoration: none;
+  border:none;
+  border-radius: 4px;
+  float: right;
+}
+.btn_pirimary
+{
+  	color:#6750A4;
+    background-color:#FFFBFE;
+}
+.btn_pirimary:hover
+{
+  	background-color:rgba(103,80,164,.05);
+}
+.btn:hover
+{
+  	background-color:rgba(103,80,164,.1);
+}
+.swiper_product-margin
+{
+	margin-top:15px;
+}
+
+.card__like-product > i
+{
+  font-size: 24px;
+  color: #ff0000;
+  margin-top: 8px;
+  position: absolute;
+  left: 56px;
+}
+.card__bookmark-product > i
+{
+  font-size: 24px;
+  margin-top: 8px;
+  position: absolute;
+  left: 16px;
+}

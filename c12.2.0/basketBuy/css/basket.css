@@ -1,0 +1,110 @@
+body
+{
+  background-color: #fafafa;
+  font-size: 18px;
+  font-family: 'b nazanin';
+}
+.data-table
+{
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: solid 1px #e0e0e0;
+  border-spacing: 0px;
+  border-radius: 4px;
+}
+.data-table td,.data-table th
+{
+  border-bottom: solid 1px #e0e0e0;
+  border-collapse: collapse;
+  padding: 16px;
+}
+.data-table tr
+{
+  height: 52px;
+}
+.data-table tr:first-child
+{
+  height: 56px;
+}
+.data-table__number-left
+{
+  text-align: left;
+}
+a
+{
+  color: #000;
+}
+.data-table td > img
+{
+  width: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.data-table__nameProduce
+{
+}
+.data-table td > input[type=number]
+{
+  width: 60px;
+  font-size: 18px;
+  border: none;
+}
+.fulBuy
+{
+  border: solid 1px #e0e0e0;
+  border-radius: 4px;
+  margin: 0px;
+  min-width: 250px;
+  height: 120px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.btn
+{
+  grid-column: 1/3;
+  min-width: 48px;
+	height: 40px;
+  line-height: 40px;
+  color:#6750A4;
+	/* padding: 0 16px 0 0 ; */
+  text-align: center;
+	margin:8px 8px 0px 8px;
+  display:inline-block;
+  font-weight: 500;
+}
+.btn i
+{
+	font-size:18px;
+	padding:0 8px 0 12px;
+vertical-align:middle;
+}
+.filled-button
+{
+  color:#FFFFFF;
+  border-radius:2em;
+  background-color:#6750A4;
+}
+.filled-button i
+{
+  color:#FFFFFF;
+}
+.filled-button:hover
+{
+  background-color: rgba(103, 80, 164, .9);
+}
+.main-content
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+.fulBuy__totalPrice
+{
+  text-align: left;
+}
+.fulBuy p
+{
+  margin-top: 8px;
+}

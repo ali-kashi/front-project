@@ -1,0 +1,88 @@
+body
+{
+  direction: rtl;
+  text-align: right;
+  font-family: 'b nazanin';
+  margin: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.name-store
+{
+  padding: 15px;
+  margin: 0px;
+  float: right;
+}
+.name-store > span
+{
+
+  font-size: 34px;
+}
+.swiper {
+  width: 147vh;
+  height: auto;
+}
+.header
+{
+  grid-column: 1/3;
+  padding: 0px;
+  position: relative;
+}
+/*.header__search
+{
+  margin: 15px;
+  height: 48px;
+  padding: 16px 16px 16px 12px;
+  box-sizing: border-box;
+  width: 420px;
+  font-size: 18px;
+  background-color: #f0f0f1;
+  border: none;
+  border-radius: 1em;
+  float: left;
+}
+.header__search:focus
+{
+  outline: none;
+}*/
+.icon-logo
+{
+  width: 70px;
+  float: right;
+  margin: 0px;
+  padding: 10px 15px 0 0;
+}
+.icon-logo > img
+{
+  width: 100%;
+}
+.footer
+{
+  grid-column: 1/3;
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  margin-bottom: 0px;
+  border-top: solid 1.5px #e0e0e0;
+  z-index: 10;
+  position: relative;
+}
+.footer__logo
+{
+  width: 150px;
+  margin: 10px 30px;
+}
+.footer__link-Stay-with-us i
+{
+  font-size: 22px;
+  color: #9E9E9E;
+}
+.footer__link-Stay-with-us i:hover
+{
+  color: #000;
+}
+.footer__Stay-with-us
+{
+    margin-left: 15px;
+    float: left;
+}
