@@ -1,0 +1,192 @@
+body
+{
+  background-color: #fafafa;
+  font-size: 18px;
+  font-family: 'b nazanin';
+}
+.data-table
+{
+  margin: auto;
+  margin-top: 0px;
+  border: solid 1px #e0e0e0;
+  border-spacing: 0px;
+  border-radius: 4px;
+}
+.data-table td,.data-table th
+{
+  border-bottom: solid 1px #e0e0e0;
+  border-collapse: collapse;
+  padding: 16px;
+}
+.data-table tr
+{
+  height: 52px;
+}
+.data-table tr:first-child
+{
+  height: 56px;
+}
+.data-table__number-left
+{
+  text-align: left;
+}
+a
+{
+  color: #000;
+}
+.data-table td > img
+{
+  width: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.data-table__nameProduce
+{
+}
+.data-table td > input[type=number]
+{
+  width: 60px;
+  font-size: 18px;
+  border: none;
+}
+.fulBuy
+{
+  border: solid 1px #e0e0e0;
+  border-radius: 4px;
+  margin: 0px;
+  min-width: 250px;
+  height: 120px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.btn
+{
+  min-width: 48px;
+	height: 40px;
+  line-height: 40px;
+  color:#6750A4;
+	padding: 0 16px 0 0 ;
+  text-align: center;
+	/*margin:8px 8px 0px 8px;*/
+  margin-top: 8px;
+  display:inline-block;
+  font-weight: 500;
+  border: none;
+  font-size: 18px;
+  font-family: 'b nazanin';
+  cursor: pointer;
+}
+.btn i
+{
+	font-size:18px;
+	padding:0 8px 0 12px;
+vertical-align:middle;
+}
+.fulBuy__btn
+{
+  grid-column: 1/3;
+}
+.filled-button
+{
+  color:#FFFFFF;
+  border-radius:2em;
+  background-color:#6750A4;
+}
+.filled-button i
+{
+  color:#FFFFFF;
+}
+.filled-button:hover
+{
+  background-color: rgba(103, 80, 164, .9);
+}
+.main-content
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+.fulBuy__totalPrice
+{
+  text-align: left;
+}
+.fulBuy p
+{
+  margin-top: 8px;
+}
+.SendInformation
+{
+  grid-column: 1/3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.labelTitr
+{
+  font-weight: bold;
+  border-bottom: solid 1px #e0e0e0;
+  padding-bottom: 8px;
+}
+input
+{
+    display: block;
+    height: 48px;
+    padding: 16px 16px 16px 12px;
+    box-sizing: border-box;
+    width: 280px;
+    font-size: 24px;
+    font-family: "b nazanin";
+}
+input:focus
+{
+  outline-color: #6750A4;
+  border-width: 2px;
+}
+.input_sizeLg
+{
+  width: 100%;
+}
+.containerInput
+{
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.split
+{
+  border-bottom: solid 1px #e0e0e0;
+  grid-column: 1/4;
+  margin: 8px 0;
+}
+.containerInput__Helper-text
+{
+  height: 16px;
+  margin: 0px;
+  padding: 4px 16px 4px 12px;
+  margin-bottom: 8px;
+}
+.containerInput label
+{
+  padding-right: 8px;
+}
+.gridFull
+{
+  grid-column: 1/4;
+}
+:root
+{
+  scroll-behavior: smooth;
+}
+.btn_size_md
+{
+  width: 280px;
+}
+.factor div
+{
+  margin: 16px;
+}
+.factorTotalPrice_weight_bold
+{
+  font-weight: bold;
+  font-size: 16px;
+}

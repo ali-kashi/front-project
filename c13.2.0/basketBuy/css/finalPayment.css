@@ -1,0 +1,23 @@
+body
+{
+  font-size: 24px;
+  font-family: 'b nazanin';
+}
+.container-centerPage
+{
+  margin: auto;
+  border: solid 4px #109400;
+  width: 700px;
+  border-radius: 1em;
+  padding: 16px;
+  background-color: rgba(224,224,224,.5);
+}
+.container-centerPage div
+{
+  font-size: 18px;
+}
+.counter
+{
+  color: #ff0000;
+  display: inline-block;
+}
